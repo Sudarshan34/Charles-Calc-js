@@ -1,0 +1,80 @@
+body{
+    background-image: url("gettyImages.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.container{
+    background-color: white;
+    height: 750px;
+    width: 500px;
+    margin-left: 500px;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.bill,.service,.ppl{
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+.cal{
+    margin-left: 100px;
+}
+
+.btn{
+    margin-top: 100px;
+    /* margin-left: 200px; */
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+
+.btn:hover{
+    transition: transform 1s, opacity 1s;
+    transform: scale(1.04); 
+}
+
+.btn button{
+    padding: 20px;
+    width:100%;
+    background-color: rgb(124, 18, 18);
+    color: white;
+    font-size: 20px;
+}
+
+.cal h1{
+    color:rgb(124, 18, 18); 
+    font-weight: bold;
+}
+
+label{
+    color:rgb(124, 18, 18); 
+    font-weight: bold;
+    font-size: 20px;
+}
+
+span{
+    color:rgb(124, 18, 18); 
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.tip{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.tip input{
+    margin-left: 60px;
+}
+
+
+
+
